@@ -2,8 +2,8 @@
 /* ========== GLOBAL ========== */
 
 .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 input {
@@ -229,7 +229,43 @@ body {
 /* ========== SECTION 1 MOBILE STYLES ==========/ */
 
 
-/* ========== MOBILE MEDIA STYLES ========== */
+/* ========== SECTION 2 MOBILE STYLES ========== */
+.content-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.content-list{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.content-title {
+    margin-bottom: 8px;
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+}
+
+.content-text{
+    color:  #434455;
+        font-weight: 500;
+        align-self: stretch;
+}
+
+.background-icon{
+    display: none;
+}
+
+
+/* ========== SECTION 2 MOBILE STYLES ==========/ */
+
+
+/* ==================== MOBILE MEDIA STYLES ==================== */
 
 @media screen and (min-width: 480px) {
     .container {
@@ -239,9 +275,9 @@ body {
     }
 }
 
-/* ========== MBILE MEDIA STYLES ==========/ */
+/* ==================== MBILE MEDIA STYLES ====================/ */
 
-/* ========== TABLET MEDIA STYLES ========== */
+/* ==================== TABLET MEDIA STYLES ==================== */
 
 @media screen and (min-width: 768px) {
     .container {
@@ -378,10 +414,11 @@ body {
 
 }
 
-/* ========== TABLET MEDIA STYLES ==========/ */
+/* ==================== TABLET MEDIA STYLES ====================/ */
 
 
-/* ========== PC MEDIA STYLES ========== */
+/* ==================== PC MEDIA STYLES ==================== */
+/* ========== PC MEDIA STYLES HEADER ========== */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -413,13 +450,49 @@ body {
         letter-spacing: 0.32px;
     }
 
+/* ========== PC MEDIA STYLES HEADER ==========/ */
+/* ========== PC MEDIA STYLES SECTION 1 ========== */
+
     .hero-section {
         background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
        url(../images/hero-background.jpg);
     }
+/* ========== PC MEDIA STYLES SECTION 1 ==========/ */
 
+/* ========== PC MEDIA STYLES SECTION 2 ========== */
+        .content-section {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+    
+        .background-icon {
+            width: 264px;
+            height: 112px;
+            flex-shrink: 0;
+            border-radius: 4px;
+            border: 1px solid #8E8F99;
+            background: #F4F4FD;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 8px;
+        }
+    
+        .content-list {
+            gap: 24px;
+            flex-direction: row;
+        }
+
+        .content-text {
+            font-weight: 400;
+        }
+    
+        .content-items {
+            width: calc((100% - 72px) / 4);
+        }
+/* ========== PC MEDIA STYLES SECTION 2 ==========/ */
 }
 
-/* ========== PC MEDIA STYLES ==========/ */
+/* ==================== PC MEDIA STYLES ====================/ */
