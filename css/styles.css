@@ -1117,6 +1117,34 @@ align-items: flex-start
 
 /* ========== FOOTER TABLET STYLES ==========/ */
 
+/* ========== MODAL WINDOW TABLET STYLES ========== */
+
+.modal-window-conteiner{
+    width: 408px;
+}
+
+.modal-form{
+    width: 360px;
+}
+
+.modal-form-input{
+    width: 360px;
+}
+
+.modal-textarea-input{
+    width: 360px;
+}
+
+
+.modal-title{
+    width: auto;
+}
+
+
+
+
+/* ========== MODAL WINDOW TABLET STYLES ==========/ */
+
 }
 
 /* ==================== TABLET MEDIA STYLES ====================/ */
