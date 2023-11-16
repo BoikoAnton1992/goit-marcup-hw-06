@@ -145,6 +145,10 @@
             <li class="our-team-items">
               <img
                 src="./images/mark_guerrero.jpg"
+                srcset="
+                  ./images/mark_guerrero.jpg    1x,
+                  ./images/mark_guerrero@2x.jpg 2x
+                "
                 width="264"
                 height="260"
                 alt="Man"
@@ -187,13 +191,14 @@
             <li class="our-team-items">
               <img
                 src="./images/tom_ford.jpg"
+                srcset="./images/tom_ford.jpg 1x, ./images/tom_ford@2x.jpg 2x"
                 width="264"
                 height="260"
                 alt="Man"
               />
               <div class="text-container">
-                <h3 class="our-team-name">Mark Guerrero</h3>
-                <p class="our-team-text">Product Designer</p>
+                <h3 class="our-team-name">Tom Ford</h3>
+                <p class="our-team-text">Frontend Developer</p>
                 <ul class="our-team-ul-icon">
                   <li class="our-team-list-icon">
                     <a class="url-our-team" href="">
@@ -229,13 +234,17 @@
             <li class="our-team-items">
               <img
                 src="./images/camila_garcia.jpg"
+                srcset="
+                  ./images/camila_garcia.jpg    1x,
+                  ./images/camila_garcia@2x.jpg 2x
+                "
                 width="264"
                 height="260"
                 alt="Woman"
               />
               <div class="text-container">
-                <h3 class="our-team-name">Mark Guerrero</h3>
-                <p class="our-team-text">Product Designer</p>
+                <h3 class="our-team-name">Camila Garcia</h3>
+                <p class="our-team-text">Marketing</p>
                 <ul class="our-team-ul-icon">
                   <li class="our-team-list-icon">
                     <a class="url-our-team" href="">
@@ -271,13 +280,17 @@
             <li class="our-team-items">
               <img
                 src="./images/daniel_wilson.jpg"
+                srcset="
+                  ./images/daniel_wilson.jpg    1x,
+                  ./images/daniel_wilson@2x.jpg 2x
+                "
                 width="264"
                 height="260"
                 alt="Man"
               />
               <div class="text-container">
-                <h3 class="our-team-name">Mark Guerrero</h3>
-                <p class="our-team-text">Product Designer</p>
+                <h3 class="our-team-name">Daniel Wilson</h3>
+                <p class="our-team-text">UI Designer</p>
                 <ul class="our-team-ul-icon">
                   <li class="our-team-list-icon">
                     <a class="url-our-team" href="">
@@ -323,21 +336,31 @@
             <li class="our-portfolio-items portfolio-items-hover">
               <div class="container-img-portfolio">
                 <picture>
-                  <!-- Изображение для экранов шириной более 1200px (пк) -->
+                  <!-- Изображение для экранов (пк) -->
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/banking-app-pc.jpg"
+                    srcset="
+                      ./images/banking-app-pc.jpg,
+                      ./images/banking-app-pc@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной от 600px до 1200px (планшет) -->
+                  <!-- Изображение для экранов (планшет) -->
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/banking-app-tablet.jpg"
+                    srcset="
+                      ./images/banking-app-tablet.jpg,
+                      ./images/banking-app-tablet@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной менее 600px (телефон) -->
+                  <!-- Изображение для экранов (телефон) -->
                   <img
-                    src="./images/banking-app-mobile.jpg"
+                    srcset="
+                      ./images/banking-app-mobile.jpg,
+                      ./images/banking-app-mobile@2x.jpg 2x
+                    "
+                    src="./images/cashless-payment-mobile.jpg"
                     alt="Banking app images"
                   />
                 </picture>
@@ -355,20 +378,30 @@
             <li class="our-portfolio-items portfolio-items-hover">
               <div class="container-img-portfolio">
                 <picture>
-                  <!-- Изображение для экранов шириной более 1200px (пк) -->
+                  <!-- Изображение для экранов (пк) -->
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/cashless-payment-pc.jpg"
+                    srcset="
+                      ./images/cashless-payment-pc.jpg,
+                      ./images/cashless-payment-pc@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной от 600px до 1200px (планшет) -->
+                  <!-- Изображение для экранов (планшет) -->
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/cashless-payment-tablet.jpg"
+                    srcset="
+                      ./images/cashless-payment-tablet.jpg,
+                      ./images/cashless-payment-tablet@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной менее 600px (телефон) -->
+                  <!-- Изображение для экранов (телефон) -->
                   <img
+                    srcset="
+                      ./images/cashless-payment-mobile.jpg,
+                      ./images/cashless-payment-mobile@2x.jpg 2x
+                    "
                     src="./images/cashless-payment-mobile.jpg"
                     alt="Banking app images"
                   />
@@ -387,20 +420,30 @@
             <li class="our-portfolio-items portfolio-items-hover">
               <div class="container-img-portfolio">
                 <picture>
-                  <!-- Изображение для экранов шириной более 1200px (пк) -->
+                  <!-- Изображение для экранов (пк) -->
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/meditation-app-pc.jpg"
+                    srcset="
+                      ./images/meditation-app-pc.jpg,
+                      ./images/meditation-app-pc@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной от 600px до 1200px (планшет) -->
+                  <!-- Изображение для экранов (планшет) -->
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/meditation-app-tablet.jpg"
+                    srcset="
+                      ./images/meditation-app-tablet.jpg,
+                      ./images/meditation-app-tablet@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной менее 600px (телефон) -->
+                  <!-- Изображение для экранов (телефон) -->
                   <img
+                    srcset="
+                      ./images/meditation-app-mobile.jpg,
+                      ./images/meditation-app-mobile@2x.jpg 2x
+                    "
                     src="./images/meditation-app-mobile.jpg"
                     alt="Banking app images"
                   />
@@ -420,20 +463,30 @@
             <li class="our-portfolio-items portfolio-items-hover">
               <div class="container-img-portfolio">
                 <picture>
-                  <!-- Изображение для экранов шириной более 1200px (пк) -->
+                  <!-- Изображение для экранов (пк) -->
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/taxi-service-pc.jpg"
+                    srcset="
+                      ./images/taxi-service-pc.jpg,
+                      ./images/taxi-service-pc@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной от 600px до 1200px (планшет) -->
+                  <!-- Изображение для экранов (планшет) -->
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/taxi-service-tablet.jpg"
+                    srcset="
+                      ./images/taxi-service-tablet.jpg,
+                      ./images/taxi-service-tablet@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной менее 600px (телефон) -->
+                  <!-- Изображение для экранов (телефон) -->
                   <img
+                    srcset="
+                      ./images/taxi-service-mobile.jpg,
+                      ./images/taxi-service-mobile@2x.jpg 2x
+                    "
                     src="./images/taxi-service-mobile.jpg"
                     alt="Banking app images"
                   />
@@ -453,20 +506,30 @@
             <li class="our-portfolio-items portfolio-items-hover">
               <div class="container-img-portfolio">
                 <picture>
-                  <!-- Изображение для экранов шириной более 1200px (пк) -->
+                  <!-- Изображение для экранов (пк) -->
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/screen-illustrations-pc.jpg"
+                    srcset="
+                      ./images/screen-illustrations-pc.jpg,
+                      ./images/screen-illustrations-pc@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной от 600px до 1200px (планшет) -->
+                  <!-- Изображение для экранов (планшет) -->
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/screen-illustrations-tablet.jpg"
+                    srcset="
+                      ./images/screen-illustrations-tablet.jpg,
+                      ./images/screen-illustrations-tablet@2x.jpg 2x
+                    "
                   />
 
-                  <!-- Изображение для экранов шириной менее 600px (телефон) -->
+                  <!-- Изображение для экранов (телефон) -->
                   <img
+                    srcset="
+                      ./images/screen-illustrations-mobile.jpg,
+                      ./images/screen-illustrations-mobile@2x.jpg 2x
+                    "
                     src="./images/screen-illustrations-mobile.jpg"
                     alt="Banking app images"
                   />
@@ -486,15 +549,28 @@
             <li class="our-portfolio-items portfolio-items-hover">
               <div class="container-img-portfolio">
                 <picture>
+                  <!-- Изображение для экранов (пк) -->
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/online-courses-pc.jpg"
+                    srcset="
+                      ./images/online-courses-pc.jpg,
+                      ./images/online-courses-pc@2x.jpg 2x
+                    "
                   />
+                  <!-- Изображение для экранов (планшет) -->
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/online-courses-tablet.jpg"
+                    srcset="
+                      ./images/online-courses-tablet.jpg,
+                      ./images/online-courses-tablet@2x.jpg 2x
+                    "
                   />
+                  <!-- Изображение для экранов (телефон) -->
                   <img
+                    srcset="
+                      ./images/online-courses-mobile.jpg,
+                      ./images/online-courses-mobile@2x.jpg 2x
+                    "
                     src="./images/online-courses-mobile.jpg"
                     alt="Banking app images"
                   />
